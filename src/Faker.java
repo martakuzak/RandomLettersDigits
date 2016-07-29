@@ -51,7 +51,7 @@ public class Faker {
 	 * 
 	 * The method replaces all the 'a' characters with random characters from set {'N', 'O', 'P', 'Q'}
 	 * 
-	 * Examples of output: "NlN mP kotQ", "OlQ mQ kotP"
+	 * Examples of output: "AlN mP kotQ", "AlQ mQ kotP"
 	 */
 
 	private String internalReplace(String input, char replaceChar, char startChar, int numOfChar) {
